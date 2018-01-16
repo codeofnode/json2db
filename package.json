@@ -1,0 +1,32 @@
+{
+  "name": "json2db",
+  "version": "0.0.0",
+  "description": "A lightweight, event based, human readable, json database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codeofnode/json2db.git"
+  },
+  "keywords": [
+    "json",
+    "db",
+    "lightweight",
+    "readable",
+    "filesystem"
+  ],
+  "author": "Ramesh Kumar <codeofnode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeofnode/json2db/issues"
+  },
+  "homepage": "https://github.com/codeofnode/json2db#readme",
+  "dependencies": {
+    "json2server": "^0.1.27",
+    "petu": "latest",
+    "util.promisify": "^1.0.0",
+    "uuid": "^3.2.1"
+  }
+}
